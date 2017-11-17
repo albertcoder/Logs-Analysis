@@ -38,16 +38,16 @@ def getQueryResult(query):
 
 # prints the results of array passed as parameter
 def showQueryResults(queryResult):
-    print (queryResult['head'])
+    print(queryResult['head'])
     for result in queryResult['results']:
-        print ('\t' + str(result[0]) + ' =>> ' + str(result[1]) + ' views')
+        print('\t' + str(result[0]) + ' =>> ' + str(result[1]) + ' views')
 
 
 # prints the results of array passed as parameter
 def showErrorQueryResults(queryResult):
-    print (queryResult['head'])
+    print(queryResult['head'])
     for result in queryResult['results']:
-        print ('\t' + str(result[0]) + ' =>> ' + str(result[1]) + ' %')
+        print('\t' + str(result[0]) + ' =>> ' + str(result[1]) + ' %')
 
 
 # stores the result of the query
